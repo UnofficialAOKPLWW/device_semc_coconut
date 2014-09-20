@@ -48,9 +48,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=160 \
     com.qc.hdmi_out=false
-
-# Hardware Info
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.device.rear_cam="5 MP Exmor R" \
-    ro.device.front_cam="1.3 MP" \
-    ro.device.screen_res=320x480
